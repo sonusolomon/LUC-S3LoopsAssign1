@@ -1,0 +1,72 @@
+In Programming we sometimes need to perform an action more than one time.
+
+Ex: 
+    We may want to print "Thank you " for 10 times.
+
+    For this, Its easy to write the program but writing a complex code which performs repetetive tasks would be problamatic if we write each task individually though they perform the same action.
+
+Example: 
+
+int main()
+{
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    cout<<"Thank You..!";
+    return 0;
+}
+
+In Situations like this "Loop" concept Its very Helpful. They make execution of repetetive task simple with less line of code.
+
+Rather than Executing a simgle statement for 10 times by wrinting 10 lines of code, you can actually execute a single statement for 10 times by writing one line code using "Loops" concept.
+
+We mostly use two types of Loops:
+a) For:
+    It is used to perform repetetive tasks when you know the number of iteration beforehand.
+
+    syntax:
+        for (initialization exp; test exp; update exp)
+        {
+            body of the Loop
+            statement we want to execute
+        }
+    
+    Example:
+        int main()
+        {
+            for (int i = 1; i<=5; i++){
+                cout<<"Hello World";
+            }
+            return 0;
+        }
+
+b) While:
+    It is used when we dont know the number of execution before.
+
+    syntax:
+        initialization exp;
+        while(test exp)
+        {
+            statement
+
+            Update exp;
+        }
+
+    Example:
+        int main()
+        {
+            int 1 = 1;
+
+            while(i<6){
+                cout<<"Thank You";
+
+                i++;
+            }
+            return 0;
+        }
